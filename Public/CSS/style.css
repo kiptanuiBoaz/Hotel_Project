@@ -1,0 +1,334 @@
+
+/* navbar styling */
+    .navtop{
+        
+        position: fixed;
+        width: 100%;
+        overflow: hidden;
+        top: 0;
+        background-color: white;
+        height: 1.3cm;
+        cursor: pointer;
+        z-index: 2;
+        
+       
+    }
+   
+   
+    
+    .nav-top .col-lg-2{
+        margin-top: 20px;
+        
+    }
+    .navtop a{
+        text-decoration: none;
+        color: rgb(64, 71, 94);
+        font-size: 1.3rem;
+        margin-top: 100px;
+        line-height: 50px;
+        
+    }
+    .nav-end-btn{
+        color: black;
+        text-decoration: none;
+        /* display: inline-block; */
+        width: 3.5cm;
+        font-size: 5mm;
+        margin-left: 0;
+        padding: 0;
+        position: absolute;
+        left: 1150px;
+        right: auto;
+        top: 8px;
+        text-align: center;
+        border-radius: 16px;
+        height: 35px;
+        border: 1.5px solid white ;
+
+    }
+    
+
+    .navtop a:hover {
+        color:#4CAF50;
+    }
+    .navtop h2{
+        font-size: 1.5rem;
+        margin-left: 15px;
+        background-color: #4CAF50;
+        margin-top: 0%;
+        color: white;
+        font-weight: 300;
+    }
+    .nav-top h2:hover{
+        background-color: rgba(129, 53, 18, 0.747);
+        /* color */
+    }
+
+
+/* landing section */
+
+    .landing_section{
+        background-image:url("https://mensandbeauty.com/wp-content/uploads/2019/04/mejores-hoteles-mundo-lujo-exclusivo-caro-atlantis-paradise-island-resort-bahamas.jpg");
+        height: 16cm;
+        text-align: center;
+        /* color: white; */
+        background-attachment: fixed;
+        background-size: covers;
+        margin-top: 37px;
+        /* z-index: 1; */
+    }
+
+    .landingslogan ,.landingh1 , .landingp {
+        
+        
+        left: 300px;
+        right: 300px;
+        color: white;
+        font-weight: normal;
+        
+    
+    }
+    
+
+    .landingh1{
+        
+        padding-top: 320px;
+    }
+    .landingp{
+        top: 400px;
+        
+    }
+
+    .landingslogan{
+        top:410px;
+        padding-top: 20px;
+    }
+
+    .landing-btn-div{
+        text-align: center;
+        
+        
+        
+    }
+    .landing-btn{
+
+        margin-top: 6cm;
+        left: 610px;
+        padding-top:3cm ;
+        padding: 8px 16px;
+        border-radius: 16px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor:pointer;
+        border: 1.5px solid #fff;
+        background-color: transparent !important;
+        font-size: 5mm;
+        
+    }
+   
+
+    .landing-btn-a{
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        
+    
+    }
+
+/* hotel gallary */
+    .hotel-galleryh{
+        padding-top: 20px;
+    }
+    .txtgreen{
+        color: #4CAF50;
+        text-align: center;
+    }
+
+    .img_carousel  {
+
+        width: 100%;
+        z-index: 0;
+        
+        
+    }
+            
+/* about us */
+
+    .about-us{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .on-demand{
+        background-color: red;
+        width: 100%;
+        height: 2cm;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .on-demandp{
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .sunbathimg{
+        size:40%;
+        width: 100%;
+        height: auto;
+    }
+    .carr-aboutus{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carr-aboutus-in{
+        background-color: white;
+    
+        
+    }
+
+    .carr-center{
+        text-align: center;  
+        margin-left: auto;
+        margin-right: auto;
+}
+/* newsletter section */
+    .newsletterp{
+        color: white;
+    }
+
+    .about-usp{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .newsletter-section{
+        background-color: #4CAF50;
+        margin-top: 30px;
+        height: 8.5cm;
+        
+    }
+    .newsletterh{
+        text-align: center;
+        color: white;
+    }
+    .news-btn{
+        margin-top: 30px;
+    }
+    .fname-input{
+        width: 100%;
+        height: 1.2cm;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        /* margin-left: 20px; */
+        margin-right: 10px;
+        outline: none;
+        
+    }
+    .fname-input:focus{
+        border-color:rgb(56, 195, 230);
+    }
+
+    .lname-input:focus{
+     border-color:rgb(56, 195, 230) !important;
+     
+
+    }
+    
+    .email-input:focus{
+     border-color:rgb(56, 195, 230);
+
+    }
+
+    .news-label:focus{
+        border-color:rgb(56, 195, 230);
+
+    }
+
+    .finput:focus{
+        border-color:rgb(56, 195, 230);
+    }
+
+    .lname-input{
+        width: 100%;
+        height: 1.2cm;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 2px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 2px;
+    }
+    .email-input{
+        width: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 2px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 2px;
+        height: 1.2cm;
+    }
+    .news-label{
+        color: white;
+    }
+
+/* testimonials */
+.testimonials{
+    text-align: center;
+    background-color:#e3dfde;
+    height: 10cm;
+}
+/* contact us */
+.contact-us-section{
+    background-color: #e3dfde;
+    margin-top: 30px;
+    margin-bottom:30px;
+    height: 10cm;
+    text-align: center;
+}
+.fas , .fab {
+    color: #4CAF50;
+}
+.message-contact{
+    margin-right:90px ;
+    margin-left: 20px;
+    width: 94%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 2px;
+}
+
+/* footer-section */
+.footer-section{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* BOOKROOM PAGE */
+.book-roomheader{
+    background-color: #4CAF50;
+    width: 100%;
+    height: 3cm;
+    color: white;
+    text-align: center;
+    
+}
+
+/* .booking-form{
+  
+} */
+.finput{
+    width: 100%;
+    margin: 20px;
+}
+.quizp{
+    text-align: center;
+    margin: 20px;
+}
+.danger-button, .success-button{
+    margin-bottom: 40px;
+}

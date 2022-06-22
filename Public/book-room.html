@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-room</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+<!-- favicon link -->
+    <link rel="icon" href="images/favicon.ico">
+<!-- font awesome link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<!-----google fonts link----------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+<!-- stylesheet link -->
+    
+    
+<link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body ">
+    <!-- header section -->
+
+    <div class="book-roomheader">
+        <h1>7th Heaven Hotel</h1>
+        <h1>Make Room Reservations in Minutes.</h1>
+    </div>
+    <!-- form secton -->
+
+    <div class="container">
+        <form action="" class="booking-form">
+            <div class="row">
+                <div class="col-lg-6">
+                    <input class="finput" type="text" placeholder="First name" >
+                </div>
+                <div class="col-lg-6">
+                    <input  class="finput" type="text" placeholder="Last name">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <input class="finput" type="email" placeholder="email">
+                </div>
+                <div class="col-lg-6">
+                    <input class="finput" type="tel" placeholder="Telephone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <input class="finput" type="number" placeholder="Number of adults">
+                </div>
+                <div class="col-lg-6">
+                    <input class="finput" type="number" placeholder="Number of children">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="">Check-in Date:<br></label>
+                    <input class="finput" type="date" placeholder="mm/dd/yyyy">
+                </div>
+                <div class="col-lg-6">
+                    <label for="">Check-out Date:<br></label>
+                    <input class="finput" type="date" placeholder="mm/dd/yyyy" >
+                </div>
+            </div>
+            
+            
+            <p class="quizp">Please aswer these questions for a pleasant stay</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <input type="checkbox" name="pet" id="pet">
+                    <label for="pet">Will you be bringing a pet?</label>
+                </div>
+                <div class="col-lg-6">
+                    <input type="checkbox" name="pick-up" id="pick-up">
+                    <label for="pick-up">Do you need us to pick you up?</label>
+                </div>
+            </div>
+            
+            
+
+            <p class="quizp">Anything else we should know about?</p>
+            <textarea  class="finput" name="info" id="" cols="50" rows="04" placeholder="Let us know about any special accomodation needs..."> </textarea>
+
+            <p> <b>Please:</b> Be as descriptive as possible. </p>
+            <button type="submit" class="btn btn-success success-button">Submit</button>
+            <button type="button" class="btn btn-danger  danger-button">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
